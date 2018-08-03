@@ -3,7 +3,7 @@ class Person(object):
 	height_mtr = None
 	weight_kg = None
 	
-	def __init__(self, name, height_mtr , weight_kg):
+	def __init__(self, name, height_mtr, weight_kg):
 		self.name = name
 		self.weight_kg = weight_kg
 		self.height_mtr = height_mtr
